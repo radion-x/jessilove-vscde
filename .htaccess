@@ -1,0 +1,15 @@
+<IfModule mod_headers.c>
+  # Always revalidate documents and assets that change often.
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "no-cache, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "no-cache, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  # Cache heavy, versioned assets for a long time.
+  <FilesMatch "\.(png|jpg|jpeg|webp|gif|svg|ico|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
