@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gallery — JessiLove</title>
+    <meta
+      name="description"
+      content="A gallery of strength, joy, and presence — training, competition moments, and the JessiLove lifestyle."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="top" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="nav-wrap container">
+        <a class="logo" href="index.html">
+          <img src="assets/jessi_logo.png" alt="JessiLove logo" />
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span class="nav-toggle-label">Menu</span>
+          <span class="nav-toggle-icon" aria-hidden="true"></span>
+        </button>
+        <nav id="primary-nav" class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="programs.html">Programs</a>
+          <a href="gallery.html" aria-current="page">Gallery</a>
+          <a href="journal.html">Journal</a>
+          <a href="contact.html">Contact</a>
+          <a class="nav-cta nav-cta--mobile" href="contact.html">Start Today</a>
+        </nav>
+        <a class="nav-cta" href="contact.html">Start Today</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Gallery</p>
+          <h1 class="page-title">Strength, joy & presence</h1>
+          <p class="subhead">
+            A visual journal of training, competition, and everyday confidence.
+            Tap any image to view.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="filters reveal" role="group" aria-label="Gallery filters">
+            <button class="filter-pill is-active" type="button" data-filter="all">
+              All
+            </button>
+            <button class="filter-pill" type="button" data-filter="competition">
+              Competition
+            </button>
+            <button class="filter-pill" type="button" data-filter="lifestyle">
+              Lifestyle
+            </button>
+            <button class="filter-pill" type="button" data-filter="training">
+              Training
+            </button>
+          </div>
+
+          <div class="gallery-grid">
+            <a class="gallery-item" href="assets/jessi1.jpg" data-category="competition">
+              <img src="assets/jessi1.jpg" alt="Competition stage moment" loading="lazy" />
+            </a>
+            <a class="gallery-item" href="assets/jessi2.jpg" data-category="competition">
+              <img src="assets/jessi2.jpg" alt="Competition pose highlight" loading="lazy" />
+            </a>
+            <a class="gallery-item" href="assets/jessi3.jpg" data-category="competition">
+              <img src="assets/jessi3.jpg" alt="Competition stage highlight" loading="lazy" />
+            </a>
+            <a class="gallery-item" href="assets/IMG-3782.jpg" data-category="lifestyle">
+              <img src="assets/IMG-3782.jpg" alt="Lifestyle moment" loading="lazy" />
+            </a>
+            <a class="gallery-item" href="assets/DSC-1599.jpg" data-category="lifestyle">
+              <img src="assets/DSC-1599.jpg" alt="Lifestyle portrait" loading="lazy" />
+            </a>
+            <a class="gallery-item" href="assets/IMG-8081.jpg" data-category="training">
+              <img src="assets/IMG-8081.jpg" alt="Training highlight" loading="lazy" />
+            </a>
+            <a class="gallery-item" href="assets/IMG-8082.jpg" data-category="training">
+              <img src="assets/IMG-8082.jpg" alt="Training highlight" loading="lazy" />
+            </a>
+            <a class="gallery-item" href="assets/IMG-8079.jpg" data-category="training">
+              <img src="assets/IMG-8079.jpg" alt="Training highlight" loading="lazy" />
+            </a>
+            <a
+              class="gallery-item"
+              href="assets/competition_2_sq.jpg"
+              data-category="competition"
+            >
+              <img
+                src="assets/competition_2_sq.jpg"
+                alt="Competition highlight"
+                loading="lazy"
+              />
+            </a>
+            <a
+              class="gallery-item"
+              href="assets/competition_1_sqr.jpg"
+              data-category="competition"
+            >
+              <img
+                src="assets/competition_1_sqr.jpg"
+                alt="Competition highlight"
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <section class="cta-block reveal">
+          <div>
+            <p class="eyebrow">Inspired?</p>
+            <h2>Let’s turn motivation into a plan</h2>
+          </div>
+          <div class="cta-actions">
+            <a class="btn primary" href="contact.html">Start today</a>
+            <a class="btn ghost" href="programs.html">See programs</a>
+          </div>
+        </section>
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img src="assets/jessi_logo.png" alt="JessiLove logo" loading="lazy" />
+            <p>From Australia with Love</p>
+            <nav class="footer-socials" aria-label="Footer social links">
+              <a href="https://www.facebook.com/jessiloverv/">Facebook</a>
+              <a href="https://www.youtube.com/channel/UCv8P2NWSHku4zrLC9YxVO2A"
+                >YouTube</a
+              >
+              <a href="https://www.instagram.com/jessiloverv/?hl=en">Instagram</a>
+            </nav>
+          </div>
+          <div>
+            <h4>Contacts</h4>
+            <p>hello@jessilove.com.au</p>
+            <p>Gold Coast, Australia</p>
+          </div>
+          <div>
+            <h4>Pages</h4>
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="journal.html">Journal</a>
+          </div>
+          <div>
+            <h4>Start here</h4>
+            <a href="contact.html">Book a chat</a>
+            <a href="programs.html#pricing">Pricing</a>
+            <a href="journal.html">Resources</a>
+          </div>
+        </div>
+        <p class="footer-note">JessiLove - from Australia, with Love.</p>
+      </div>
+    </footer>
+
+    <dialog id="lightbox" class="lightbox" aria-label="Gallery viewer">
+      <button class="lightbox-close" type="button">Close</button>
+      <img id="lightbox-image" class="lightbox-image" alt="" />
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
