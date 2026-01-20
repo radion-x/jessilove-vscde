@@ -439,10 +439,6 @@ a {
   align-items: stretch;
 }
 
-.pricing-grid + .faq {
-  margin-top: 34px;
-}
-
 .pricing-card {
   display: flex;
   flex-direction: column;
@@ -469,6 +465,15 @@ a {
 .pricing-card .btn {
   margin-top: 10px;
   align-self: flex-start;
+}
+
+#pricing .container {
+  display: grid;
+  gap: clamp(28px, 3vw, 52px);
+}
+
+#pricing .section-title {
+  margin-bottom: 0;
 }
 
 .pricing-card.featured {
