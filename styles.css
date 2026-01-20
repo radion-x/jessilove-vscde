@@ -477,6 +477,14 @@ a {
   margin-bottom: 0;
 }
 
+#pricing .pricing-grid {
+  margin-bottom: clamp(28px, 4vw, 72px);
+}
+
+#pricing .faq {
+  margin-top: 0;
+}
+
 .pricing-card.featured {
   background: linear-gradient(180deg, rgba(216, 201, 166, 0.3), rgba(255, 255, 255, 0.92));
   border-color: rgba(216, 201, 166, 0.7);
